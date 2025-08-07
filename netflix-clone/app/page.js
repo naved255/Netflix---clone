@@ -16,7 +16,7 @@ export default function Home() {
         <div className="absolute z-20 w-full h-full">
 
           <div className="w-full flex flex-col sm:flex-row pl-10 justify-around sm:items-center h-24">
-            <div className="font-bold text-4xl  text-red-500 lg:text-6xl">NETFLIX</div>
+            <div className="font-bold text-4xl  text-red-500 lg:text-6xl">CLONFLIX</div>
 
             <div className="flex sm:justify-center items-center gap-3">
 
@@ -139,7 +139,7 @@ export default function Home() {
             <p className="text-white opacity-80">Netflix India</p>
 
             <p className="text-white opacity-80 text-xs font-extralight">
-              This page is protected by Google reCAPTCHA to ensure you're not a bot. <Link  href="/" className="text-blue-500">Learn more.</Link></p>
+              This page is just a clone not a real one <Link  href="/" className="text-blue-500">Learn more.</Link></p>
           </div>
         </div>
       </div>
