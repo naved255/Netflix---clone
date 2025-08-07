@@ -13,7 +13,7 @@ const page = async ({ params })  => {
             <Image src={`/${slug[0]}`} alt='image' width={250} height={350} />
         </div>
         <div className='container px-4'>
-            <p className='text-white opacity-80'>{slug[1].replaceAll('%20', ' ').replaceAll('%2C', ',')}</p>
+            <p className='text-white  text-center lg:text-2xl lg:px-12 opacity-80'>{slug[1].replaceAll('%20', ' ').replaceAll('%2C', ',')}</p>
         </div>
         <div className='w-full py-24 px-2.5 flex flex-col md:flex-row justify-center items-center gap-3'>
           <h2 className='text-white text-3xl font-bold'>Want to read more</h2>
