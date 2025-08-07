@@ -3,6 +3,7 @@ import ImageScroller from "@/components/ImageScroller";
 import More from "@/components/More";
 import Question from "@/components/Question";
 import Link from "next/link";
+import { useEffect } from "react";
 
 export default function Home() {
 
