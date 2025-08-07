@@ -108,22 +108,22 @@ export default function Home() {
 
           <div className="lg:w-[65%] md:w-[95%] md:m-auto gap-6 flex flex-col flex-wrap md:h-56 ml-4">
            
-              <a className="text-white opacity-80 underline font-extralight text-[16px]" href="/">FAQ</a>
-              <a className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Investor Relations</a>
-              <a className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Privacy</a>
-              <a className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Speed Test</a>
+              <Link  className="text-white opacity-80 underline font-extralight text-[16px]" href="/">FAQ</Link>
+              <Link  className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Investor Relations</Link>
+              <Link  className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Privacy</Link>
+              <Link  className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Speed Test</Link>
        
             
-              <a className="text-white opacity-80 underline font-extralight text-[16px]" href="/">FAQ</a>
-              <a className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Investor Relations</a>
-              <a className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Privacy</a>
-              <a className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Speed Test</a>
+              <Link  className="text-white opacity-80 underline font-extralight text-[16px]" href="/">FAQ</Link>
+              <Link  className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Investor Relations</Link>
+              <Link  className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Privacy</Link>
+              <Link  className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Speed Test</Link>
          
            
-              <a className="text-white opacity-80 underline font-extralight text-[16px]" href="/">FAQ</a>
-              <a className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Investor Relations</a>
-              <a className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Privacy</a>
-              <a className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Speed Test</a>
+              <Link  className="text-white opacity-80 underline font-extralight text-[16px]" href="/">FAQ</Link>
+              <Link  className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Investor Relations</Link>
+              <Link  className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Privacy</Link>
+              <Link  className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Speed Test</Link>
         
           </div>
 
@@ -138,7 +138,7 @@ export default function Home() {
             <p className="text-white opacity-80">Netflix India</p>
 
             <p className="text-white opacity-80 text-xs font-extralight">
-              This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="/" className="text-blue-500">Learn more.</a></p>
+              This page is protected by Google reCAPTCHA to ensure you're not a bot. <Link  href="/" className="text-blue-500">Learn more.</Link></p>
           </div>
         </div>
       </div>
