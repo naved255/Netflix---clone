@@ -2,6 +2,7 @@ import Image from "next/image";
 import ImageScroller from "@/components/ImageScroller";
 import More from "@/components/More";
 import Question from "@/components/Question";
+import Link from "next/link";
 
 export default function Home() {
 
