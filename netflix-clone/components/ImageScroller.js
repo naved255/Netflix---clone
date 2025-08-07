@@ -21,7 +21,7 @@ const images = [
   },
   {
     src: "/film3.webp",
-    svg: "/3.svg",
+    svg: "/three.svg",
     color: "#302f3d",
     alt: "image 4",
     para: "Sikandar is a dark, action-packed tale of a man's rise from helplessness to underworld dominance. After facing betrayal and loss, he chooses violence and vengeance to gain control. The film showcases his inner conflict and moral decline. It explores loyalty, power, and survival in a world of crime. Released on 9 August 2024, it stars Salman Khan and Aayush Sharma."
