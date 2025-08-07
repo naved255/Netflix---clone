@@ -5,6 +5,9 @@ import Question from "@/components/Question";
 import Link from "next/link";
 
 export default function Home() {
+  useEffect(() => {
+  alert("⚠️ This is a dummy Netflix clone made for learning purposes only.");
+}, []);
 
   return (
     <>
@@ -16,7 +19,7 @@ export default function Home() {
         <div className="absolute z-20 w-full h-full">
 
           <div className="w-full flex flex-col sm:flex-row pl-10 justify-around sm:items-center h-24">
-            <div className="font-bold text-4xl  text-red-500 lg:text-6xl">CLONFLIX</div>
+            <div className="font-bold text-4xl  text-red-500 lg:text-6xl">NETFLIX</div>
 
             <div className="flex sm:justify-center items-center gap-3">
 
