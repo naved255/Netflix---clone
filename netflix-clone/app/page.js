@@ -6,6 +6,10 @@ import Link from "next/link";
 
 export default function Home() {
 
+  useEffect(() => {
+    alert("⚠️ This is a dummy Netflix clone made for learning purposes only.");
+  }, []);
+
   return (
     <>
 
@@ -16,7 +20,7 @@ export default function Home() {
         <div className="absolute z-20 w-full h-full">
 
           <div className="w-full flex flex-col sm:flex-row pl-10 justify-around sm:items-center h-24">
-            <div className="font-bold text-4xl  text-red-500 lg:text-6xl">CLONFLIX</div>
+            <div className="font-bold text-4xl  text-red-500 lg:text-6xl">NETFLIX</div>
 
             <div className="flex sm:justify-center items-center gap-3">
 
@@ -108,24 +112,24 @@ export default function Home() {
           <div className=" mb-16 ml-4 lg:w-[65%] md:w-[95%] m-auto"><p className="text-white opacity-80">Questions? Call 000-800-919-1743</p></div>
 
           <div className="lg:w-[65%] md:w-[95%] md:m-auto gap-6 flex flex-col flex-wrap md:h-56 ml-4">
-           
-              <Link  className="text-white opacity-80 underline font-extralight text-[16px]" href="/">FAQ</Link>
-              <Link  className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Investor Relations</Link>
-              <Link  className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Privacy</Link>
-              <Link  className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Speed Test</Link>
-       
-            
-              <Link  className="text-white opacity-80 underline font-extralight text-[16px]" href="/">FAQ</Link>
-              <Link  className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Investor Relations</Link>
-              <Link  className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Privacy</Link>
-              <Link  className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Speed Test</Link>
-         
-           
-              <Link  className="text-white opacity-80 underline font-extralight text-[16px]" href="/">FAQ</Link>
-              <Link  className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Investor Relations</Link>
-              <Link  className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Privacy</Link>
-              <Link  className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Speed Test</Link>
-        
+
+            <Link className="text-white opacity-80 underline font-extralight text-[16px]" href="/">FAQ</Link>
+            <Link className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Investor Relations</Link>
+            <Link className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Privacy</Link>
+            <Link className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Speed Test</Link>
+
+
+            <Link className="text-white opacity-80 underline font-extralight text-[16px]" href="/">FAQ</Link>
+            <Link className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Investor Relations</Link>
+            <Link className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Privacy</Link>
+            <Link className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Speed Test</Link>
+
+
+            <Link className="text-white opacity-80 underline font-extralight text-[16px]" href="/">FAQ</Link>
+            <Link className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Investor Relations</Link>
+            <Link className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Privacy</Link>
+            <Link className="text-white opacity-80 underline font-extralight text-[16px]" href="/">Speed Test</Link>
+
           </div>
 
           <div className="ml-4 pt-16 w-[65%] lg:m-auto">
@@ -139,7 +143,7 @@ export default function Home() {
             <p className="text-white opacity-80">Netflix India</p>
 
             <p className="text-white opacity-80 text-xs font-extralight">
-              This page is just a clone not a real one <Link  href="/" className="text-blue-500">Learn more.</Link></p>
+              This page is just a clone not a real one <Link href="/" className="text-blue-500">Learn more.</Link></p>
           </div>
         </div>
       </div>
