@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image";
 import ImageScroller from "@/components/ImageScroller";
 import More from "@/components/More";
