@@ -35,7 +35,7 @@ export default function Home() {
 
             <div className="w-[650px]  flex flex-col justify-center gap-4 items-center">
 
-              <p className="text-center text-3xl sm:text-4xl lg:text-6xl text-white font-bold">Unlimited movies, TV shows and more</p>
+              <p className="text-center text-3xl sm:text-4xl lg:text-6xl text-white font-bold">Unlimited movies &lsquo; TV shows and more</p>
               <p className="text-center md:text-[15px] lg:text-xl text-white">Starts at ₹149. Cancel at any time.</p>
 
               <div className="w-full mt-2.5">
