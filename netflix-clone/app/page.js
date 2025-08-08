@@ -1,8 +1,4 @@
 "use client"
-<<<<<<< HEAD
-
-=======
->>>>>>> 6541c6667b20d53bbda512b32cd2948b65cb145e
 import Image from "next/image";
 import ImageScroller from "@/components/ImageScroller";
 import More from "@/components/More";
@@ -11,9 +7,7 @@ import Link from "next/link";
 import { useEffect } from "react";
 
 export default function Home() {
-  useEffect(() => {
-  alert("⚠️ This is a dummy Netflix clone made for learning purposes only.");
-}, []);
+
 
   useEffect(() => {
     alert("⚠️ This is a dummy Netflix clone made for learning purposes only.");
